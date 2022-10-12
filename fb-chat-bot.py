@@ -679,7 +679,6 @@ cookies = {
     "xs": "39%3AdSbyORZ6oSehsA%3A2%3A1665594085%3A-1%3A6126"
 }
 
-
 client = ChatBot("",
                  "", session_cookies=cookies)
 print(client.isLoggedIn())
