@@ -475,11 +475,11 @@ class ChatBot(Client):
             elif ("frank listen" in msg):
                 reply = "yes"
                 sendMsg()
-            elif ("frank say sorry to all" in msg):
-                reply = "ok sorry friends"
+            elif ("frank say sorry" in msg):
+                reply = "sorry"
                 sendMsg()
             elif ("frank i love you" in msg):
-                reply = "but i love your sister"
+                reply = "love you too"
                 sendMsg()
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
