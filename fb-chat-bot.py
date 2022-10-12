@@ -526,8 +526,8 @@ class ChatBot(Client):
             elif ("frank zack gandu ha na" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg()
-            elif ("frank nomi gandu ha na" in msg):
-                 reply = "roz gand mrwata ha"
+            elif ("frank khagash gandu ha na" in msg):
+                 reply = "are kal hi isa me na choda"
                  sendMsg() 
             elif ("frank hatela gandu ha na" in msg):
                 reply = "tari ma ki chut chup bth"
