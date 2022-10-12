@@ -494,7 +494,7 @@ class ChatBot(Client):
                 reply = "roz gand mewati ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
-                reply = "tari ma ki nai ha?"
+                reply = "Tari ma ki nai ha?"
                 sendMsg()
             elif ("frank tu gandu ha" in msg):
                 reply = "Tara baap."
