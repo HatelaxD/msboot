@@ -472,6 +472,12 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
+            elif ("frank how are you" in msg):
+                reply = "im good and you"
+                sndMsg()
+            elif ("frank saqi gandu ha na" in msg):
+                reply = "are roz me iski gand marta hu"
+                sendMsg()
             elif ("frank listen" in msg):
                 reply = "yes"
                 sendMsg()
